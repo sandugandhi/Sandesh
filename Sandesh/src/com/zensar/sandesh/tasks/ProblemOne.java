@@ -8,6 +8,7 @@ import java.util.Arrays;
  * */
 public class ProblemOne {
 
+	// Can you modify to take this input from java.util.Scanner ?
 	static int minRangeValue = 0, maxRangeValue = 49;
 	
 	public static void printArrayInRange(int a, int b)
@@ -20,9 +21,9 @@ public class ProblemOne {
 		System.out.println("]");
 	}
 	public static void main(String[] args) {
-		
+		// Can you modify to take this input from java.util.Scanner ?
 		int[] inputArray = {-100, 20, 129, 22, 23, 4, 0, -56, 49, 50, 76, 8, 9};
-		
+		// You are using sort here. So, the complexity is O(n log n)
 		Arrays.sort(inputArray);
 		
 		int temp = minRangeValue;
